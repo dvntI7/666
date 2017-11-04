@@ -20,12 +20,12 @@ namespace ConsoleApp17
                 {
                     if (Regex.IsMatch(text, line) && !(text[0] == '3' && text[1] == '0' && text[3] == '0' && text[4] == '2'))
                     {
-                        Console.Write("дата успешно записана в файл new.txt! ");
+                        Console.Write("Г¤Г ГІГ  ГіГ±ГЇГҐГёГ­Г® Г§Г ГЇГЁГ±Г Г­Г  Гў ГґГ Г©Г« new.txt! ");
                         File.WriteAllText("new.txt", text);
                     }
                     else
                     {
-                        Console.WriteLine("допущена ошибка, невозможно записать дату в файл!");
+                        Console.WriteLine("Г¤Г®ГЇГіГ№ГҐГ­Г  Г®ГёГЁГЎГЄГ , Г­ГҐГўГ®Г§Г¬Г®Г¦Г­Г® Г§Г ГЇГЁГ±Г ГІГј Г¤Г ГІГі Гў ГґГ Г©Г«!");
                     }
                 }
 
